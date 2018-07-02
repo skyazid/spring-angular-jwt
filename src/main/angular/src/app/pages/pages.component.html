@@ -1,0 +1,11 @@
+<nav class="navbar navbar-light bg-light justify-content-end">
+  <button class="btn btn-primary navbar-btn" routerLink="authentication/login" *ngIf="!isConnected()">Sign in</button>
+  <button class="btn btn-primary navbar-btn ml-4" routerLink="authentication/register" *ngIf="!isConnected()">Sign up</button>
+  <button class="btn btn-danger navbar-btn ml-4" *ngIf="isConnected()" (click)="logOut()">Sign out</button>
+</nav>
+<div class="py-5">
+  <div class="container">
+    <router-outlet>
+    </router-outlet>
+  </div>
+</div>

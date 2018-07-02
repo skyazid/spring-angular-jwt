@@ -1,0 +1,25 @@
+<ngx-datatable
+  [headerHeight]="50"
+  [footerHeight]="50"
+  [rowHeight]="'auto'"
+  [columnMode]="'flex'"
+  [rows]="tasks"
+  class="bootstrap"
+  [externalPaging]="true"
+  [limit]="page.size"
+  [count]="page.totalElements"
+  [offset]="page.number"
+  (page)='setPage($event.offset, $event.pageSize)'>
+
+  <ngx-datatable-column [flexGrow]="8" prop="id">
+    <ng-template let-column="id" ngx-datatable-header-template>
+      ID
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column [flexGrow]="8" prop="name">
+    <ng-template let-column="name" ngx-datatable-header-template>
+      Name
+    </ng-template>
+  </ngx-datatable-column>
+
+</ngx-datatable>
