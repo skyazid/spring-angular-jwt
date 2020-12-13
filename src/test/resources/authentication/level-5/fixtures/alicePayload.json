@@ -1,0 +1,12 @@
+{
+  "sub": "alice",
+  "exp": "#number",
+  "roles": [
+    {
+      "authority": "ADMIN"
+    },
+    {
+      "authority": "USER"
+    }
+  ]
+}

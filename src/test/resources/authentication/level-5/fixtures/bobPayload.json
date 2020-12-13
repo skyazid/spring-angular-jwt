@@ -1,0 +1,9 @@
+{
+  "sub": "bob",
+  "exp": "#number",
+  "roles": [
+    {
+      "authority": "USER"
+    }
+  ]
+}
