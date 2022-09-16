@@ -23,7 +23,7 @@
     "@auth0/angular-jwt": "^2.0.0",
     "@fortawesome/fontawesome": "^1.1.8",
     "@swimlane/ngx-datatable": "^13.0.1",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
